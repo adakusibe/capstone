@@ -1,0 +1,32 @@
+.ecommerce-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 60%;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-grid {
+      display: none;
+    }
+  }
+  
